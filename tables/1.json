@@ -1,0 +1,108 @@
+{
+    "Title":"$title",
+    "Theme":"General",
+    "Description":"",
+
+    "Content":[
+        {
+            "type":"table",
+            "style":"list",
+
+            "headers":["$name","$lowercase","$uppercase"],
+            "content":[
+                "$alpha"    ,"\u0391"         ,"\u03B1",
+                "$beta"     ,"\u03B2"         ,"\u0392",
+                "$gamma"    ,"\u03B3"         ,"\u0393",
+                "$delta"    ,"\u03B4"         ,"\u0394",
+                "$epsilon"  ,"\u03B5"         ,"\u0395",
+                "$zeta"     ,"\u03B6"         ,"\u0396",
+                "$eta"      ,"\u03B7"         ,"\u0397",
+                "$theta"    ,"\u03B8"         ,"\u0398",
+                "$iota"     ,"\u03B9"         ,"\u0399",
+                "$kappa"    ,"\u03BA"         ,"\u039A",
+                "$lambda"   ,"\u03BB"         ,"\u039B",
+                "$mu"       ,"\u03BC"         ,"\u039C",
+                "$nu"       ,"\u03BD"         ,"\u039D",
+                "$xi"       ,"\u03BE"         ,"\u039E",
+                "$omicron"  ,"\u03BF"         ,"\u039F",
+                "$pi"       ,"\u03C0"         ,"\u03A0",
+                "$rho"      ,"\u03C1"         ,"\u03A1",
+                "$sigma"    ,"\u03C1, \u03C3" ,"\u03A2",
+                "$tau"      ,"\u03C4"         ,"\u03A3",
+                "$upsilon"  ,"\u03C5"         ,"\u03A4",
+                "$phi"      ,"\u03C6"         ,"\u03A5",
+                "$chi"      ,"\u03C7"         ,"\u03A6",
+                "$psi"      ,"\u03C8"         ,"\u03A7",
+                "$omega"    ,"\u03C9"         ,"\u03A8"
+            ]
+        }
+    ],
+
+    "Sources":[
+        "https://en.wikipedia.org/wiki/Greek_alphabet",
+        "https://en.wikipedia.org/wiki/List_of_Unicode_characters",
+        "https://nl.wikipedia.org/wiki/Grieks_alfabet"
+    ],
+
+    "Lang":{
+        "nl":{
+            "$title":"het Grieks alfabet",
+            "$name":"naam",
+            "$uppercase":"hoofd",
+            "$lowercase":"klein",
+            "$alpha":"alfa",
+            "$beta":"b\u00E8ta",
+            "$gamma":"gamma",
+            "$delta":"delta",
+            "$epsilon":"epsilon",
+            "$zeta":"zeta",
+            "$theta":"theta",
+            "$iota":"iota",
+            "$kappa":"kappa",
+            "$lambda":"la(m)bda",
+            "$mu":"mu",
+            "$nu":"nu",
+            "$xi":"xi",
+            "$omicron":"omikron",
+            "$pi":"pi",
+            "$rho":"rho",
+            "$sigma":"sigma",
+            "$tau":"tau",
+            "$upsilon":"upsilon",
+            "$phi":"fi",
+            "$chi":"chi",
+            "$psi":"psi",
+            "$omega":"omega"
+        },
+        "en":{
+            "$title":"the Greek alphabet",
+            "$name":"name",
+            "$uppercase":"upper",
+            "$lowercase":"lower",
+            "$title":"het Grieks alfabet",
+            "$alpha":"alfa",
+            "$beta":"beta",
+            "$gamma":"gamma",
+            "$delta":"delta",
+            "$epsilon":"epsilon",
+            "$zeta":"zeta",
+            "$theta":"theta",
+            "$iota":"iota",
+            "$kappa":"kappa",
+            "$lambda":"la(m)bda",
+            "$mu":"mu",
+            "$nu":"nu",
+            "$xi":"xi",
+            "$omicron":"omicron",
+            "$pi":"pi",
+            "$rho":"rho",
+            "$sigma":"sigma",
+            "$tau":"tau",
+            "$upsilon":"upsilon",
+            "$phi":"phi",
+            "$chi":"chi",
+            "$psi":"psi",
+            "$omega":"omega"
+        }
+    }
+}
