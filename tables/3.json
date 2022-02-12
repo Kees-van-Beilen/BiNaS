@@ -1,0 +1,69 @@
+{
+    "Title":"$title",
+    "Theme":"General",
+    "Description":"",
+    "Content":[
+        {
+            "type":"table",
+            "style":"list",
+            "headers":["$symbol","$name","$quantity"],
+            "content":[
+                "s"  ,"$s"  ,"$qs",
+                "m"  ,"$m"  ,"$qm",
+                "kg" ,"$kg" ,"$qkg",
+                "A"  ,"$A"  ,"$qA",
+                "K"  ,"$K"  ,"$qK",
+                "mol","$mol","$qmol",
+                "cd" ,"$cd" ,"$qcd"
+            ]
+        }
+    ],
+
+    "Sources":[
+        "https://en.wikipedia.org/wiki/International_System_of_Units",
+        "https://nl.wikipedia.org/wiki/SI-stelsel"
+    ],
+
+    "Lang":{
+        "nl":{
+            "$title":"SI, Internationale Stelsel van Eenheden",
+            "$symbol":"symbool",
+            "$name":"naam",
+            "$quantity":"grootheid",
+            "$s":"seconde",
+            "$m":"meter",
+            "$kg":"kilogram",
+            "$A":"ampre",
+            "$K":"kelvin",
+            "$mol":"mol",
+            "$cd":"candela",
+            "$qs":"tijd",
+            "$qm":"lengte",
+            "$qkg":"massa",
+            "$qA":"electrische stroom",
+            "$qK":"absolute temperatuur",
+            "$qmol":"hoeveelheid stof",
+            "$qcd":"lichtsterkte"
+        },
+        "en":{
+            "$title":"SI, International System of Unit",
+            "$symbol":"symbol",
+            "$name":"name",
+            "$quantity":"quantity",
+            "$s":"second",
+            "$m":"metre",
+            "$kg":"kilogram",
+            "$A":"ampere",
+            "$K":"kelvin",
+            "$mol":"mole",
+            "$cd":"candela",
+            "$qs":"time",
+            "$qm":"length",
+            "$qkg":"mass",
+            "$qA":"electric current",
+            "$qK":"thermodynamic temperature",
+            "$qmol":"amount of substance",
+            "$qcd":"luminous intensity"
+        }
+    }
+}
