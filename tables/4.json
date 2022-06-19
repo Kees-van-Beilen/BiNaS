@@ -1,0 +1,57 @@
+{
+    "Title":"$title",
+    "Theme":"General",
+    "Description":"",
+
+    "Content":[
+        {
+            "type":"table",
+            "style":"list",
+
+            "headers":["$quantity","$symbol","$unit","$symbol"],
+            "content":[
+                "$frequency","f,v","$hertz","@Hz = s<sup>-1</sup>}",
+                "$force","F","$newton","@N = k g s<sup>-2</sup>}",
+                "$weight","W,G","$newton","@N = k g s<sup>-2</sup>}",
+                "$pressure","\u03C1,p,P","$pascal","@Pa = N m<sup>-2</sup>"
+            ]
+        }
+    ],
+
+    "Sources":[
+        "https://en.wikipedia.org/wiki/SI_derived_unit"
+    ],
+
+    "Lang":{
+        "nl":{
+            "$title":"Afgeleiden eenheden en grootheden",
+            "$quantity":"grootheid",
+            "$symbol":"symbool",
+            "$unit":"eenheid",
+
+            "$frequency":"frequentie",
+            "$force":"kracht",
+            "$weight":"gewicht",
+            "$pressure":"druk",
+
+            "$hertz":"hertz",
+            "$newton":"newton",
+            "$pascal":"pascal"
+        },
+        "en":{
+            "$title":"Derived units and quantities",
+            "$quantity":"quantity",
+            "$symbol":"symbol",
+            "$unit":"unit",
+
+            "$frequency":"frequency",
+            "$force":"force",
+            "$weight":"weight",
+            "$pressure":"pressure",
+
+            "$hertz":"hertz",
+            "$newton":"newton",
+            "$pascal":"pascal"
+        }
+    }
+}
