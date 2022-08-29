@@ -2,7 +2,7 @@
     "Title":"$title",
     "Theme":"General",
     "Description":"",
-
+    "Table":4,
     "Content":[
         {
             "type":"table",
@@ -10,10 +10,10 @@
 
             "headers":["$quantity","$symbol","$unit","$symbol"],
             "content":[
-                "$frequency","f,v","$hertz","@Hz = s<sup>-1</sup>}",
-                "$force","F","$newton","@N = k g s<sup>-2</sup>}",
-                "$weight","W,G","$newton","@N = k g s<sup>-2</sup>}",
-                "$pressure","\u03C1,p,P","$pascal","@Pa = N m<sup>-2</sup>"
+                "$frequency","f,v","$hertz","@Hz = s<sub>-1</sub>}",
+                "$force","F","$newton","@N = k g s<sub>-2</sub>}",
+                "$weight","W,G","$newton","@N = k g s<sub>-2</sub>}",
+                "$pressure","\u03C1,p,P","$pascal","@Pa = N m<sub>-2</sub>"
             ]
         }
     ],

@@ -1,0 +1,45 @@
+{
+    "Title":"$title",
+    "Theme":"Physics",
+    "Description":"",
+    "Table":7,
+    "Content":[
+        {
+            "type":"section",
+            "section":"A",
+            "title":"$supA"
+        },
+        {
+            "type":"table",
+            "style":"list",
+
+            "headers":["$symbol","$name","$value"],
+            "content":[
+                "G","$grav-const","@<p>6.67430"
+            ]
+        }
+    ],
+
+    "Sources":[
+        "https://en.wikipedia.org/wiki/Physical_constant"
+    ],
+
+    "Lang":{
+        "nl":{
+            "$title":"Waarden van enige constanten",
+            "$supA":"Natuurconstanten",
+            "$symbol":"symbool",
+            "$name":"naam",
+            "$value":"waarde",
+            "$grav-cons":"gravitatieconstante"
+        },
+        "en":{
+            "$title":"constant values",
+            "$supA":"Physical constants",
+            "$symbol":"symbol",
+            "$name":"name",
+            "$value":"value",
+            "$grav-cons":"_"
+        }
+    }
+}

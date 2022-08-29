@@ -2,6 +2,7 @@
     "Title":"$title",
     "Theme":"General",
     "Description":"",
+    "Table":3,
     "Content":[
         {
             "type":"table",

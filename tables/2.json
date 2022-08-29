@@ -2,34 +2,39 @@
     "Title":"$title",
     "Theme":"General",
     "Description":"",
-
+    "Table":2,
     "Content":[
         {
             "type":"table",
             "style":"list",
-
+            "guide":{
+                "dissertation":{
+                    "segments_horizontal":2,
+                    "_comment":"minimize verticality"
+                }
+            },
             "headers":["$factor","$prefix","$symbol"],
             "content":[
-                "@10<sup>-24</sup>", "$y-",  "$y",
-                "@10<sup>-21</sup>", "$z-",  "$z",
-                "@10<sup>-18</sup>", "$a-",  "$a",
-                "@10<sup>-15</sup>", "$f-",  "$f",
-                "@10<sup>-12</sup>", "$p-",  "$p",
-                "@10<sup>-9</sup>" , "$n-",  "$n",
-                "@10<sup>-6</sup>" , "$u-",  "$u",
-                "@10<sup>-3</sup>" , "$m-",  "$m",
-                "@10<sup>-2</sup>" , "$c-",  "$c",
-                "@10<sup>-1</sup>" , "$d-",  "$d",
-                "@10<sup>1</sup>"  , "$da-", "$da",
-                "@10<sup>2</sup>"  , "$h-",  "$h",
-                "@10<sup>3</sup>"  , "$k-",  "$k",
-                "@10<sup>6</sup>"  , "$M-",  "$M",
-                "@10<sup>9</sup>"  , "$G-",  "$G",
-                "@10<sup>12</sup>" , "$T-",  "$T",
-                "@10<sup>15</sup>" , "$P-",  "$P",
-                "@10<sup>18</sup>" , "$E-",  "$E",
-                "@10<sup>21</sup>" , "$Z-",  "$Z",
-                "@10<sup>24</sup>" , "$Y-",  "$Y"
+                "@10<sub>-24</sub>", "$-y",  "$y",
+                "@10<sub>-21</sub>", "$-z",  "$z",
+                "@10<sub>-18</sub>", "$-a",  "$a",
+                "@10<sub>-15</sub>", "$-f",  "$f",
+                "@10<sub>-12</sub>", "$-p",  "$p",
+                "@10<sub>-9</sub>" , "$-n",  "$n",
+                "@10<sub>-6</sub>" , "$-u",  "$u",
+                "@10<sub>-3</sub>" , "$-m",  "$m",
+                "@10<sub>-2</sub>" , "$-c",  "$c",
+                "@10<sub>-1</sub>" , "$-d",  "$d",
+                "@10<sub>1</sub>"  , "$-da", "$da",
+                "@10<sub>2</sub>"  , "$-h",  "$h",
+                "@10<sub>3</sub>"  , "$-k",  "$k",
+                "@10<sub>6</sub>"  , "$-M",  "$M",
+                "@10<sub>9</sub>"  , "$-G",  "$G",
+                "@10<sub>12</sub>" , "$-T",  "$T",
+                "@10<sub>15</sub>" , "$-P",  "$P",
+                "@10<sub>18</sub>" , "$-E",  "$E",
+                "@10<sub>21</sub>" , "$-Z",  "$Z",
+                "@10<sub>24</sub>" , "$-Y",  "$Y"
             ]
         }
     ],

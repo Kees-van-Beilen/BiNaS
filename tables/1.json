@@ -2,15 +2,24 @@
     "Title":"$title",
     "Theme":"General",
     "Description":"",
-
+    "Table":1,
     "Content":[
         {
             "type":"table",
             "style":"list",
-
+            "guide":{
+                "dissertation":{
+                    "segments_horizontal":3,
+                    "_comment":"divide this into 3 segments of eight rows to pack neatly"
+                },
+                "general":{
+                    "for-font":"2mm",
+                    "max-width":"40mm"
+                }
+            },
             "headers":["$name","$lowercase","$uppercase"],
             "content":[
-                "$alpha"    ,"\u0391"         ,"\u03B1",
+                "$alpha"    ,"\u03B1"         ,"\u0391",
                 "$beta"     ,"\u03B2"         ,"\u0392",
                 "$gamma"    ,"\u03B3"         ,"\u0393",
                 "$delta"    ,"\u03B4"         ,"\u0394",
@@ -46,7 +55,7 @@
 
     "Lang":{
         "nl":{
-            "$title":"het Grieks alfabet",
+            "$title":"Het Grieks alfabet",
             "$name":"naam",
             "$uppercase":"hoofd",
             "$lowercase":"klein",
@@ -76,11 +85,10 @@
             "$omega":"omega"
         },
         "en":{
-            "$title":"the Greek alphabet",
+            "$title":"The Greek alphabet",
             "$name":"name",
             "$uppercase":"upper",
             "$lowercase":"lower",
-            "$title":"het Grieks alfabet",
             "$alpha":"alfa",
             "$beta":"beta",
             "$gamma":"gamma",
